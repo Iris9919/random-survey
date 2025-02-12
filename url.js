@@ -11,5 +11,8 @@ const urls = [
 	'https://www.surveycake.com/s/re4P3',
 	'https://www.surveycake.com/s/0zKO2',
 	'https://www.surveycake.com/s/wrMVO',
-	'https://www.surveycake.com/s/wrMVO',
+	'https://www.surveycake.com/s/eyv46',
 ];
+const randomUrl = urls[Math.floor(Math.random() * urls.length)];
+
+window.location.href = randomUrl;
